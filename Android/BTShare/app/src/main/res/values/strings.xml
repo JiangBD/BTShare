@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BTShare</string>
+    <string name="navigation_drawer_open">DRAWER OPEN</string>
+    <string name="navigation_drawer_close">DRAWER CLOSE</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="thisdeviceprompt">Vui lòng nhập địa chỉ Bluetooth của thiết bị này\nXem Cài đặt\n-> Thông tin
+    điện thoại\n-> Thông tin trạng thái\n-> Địa chỉ Bluetooth\nVD:CCF837EB805D, AAFB68527FDE\n(không cần nhập dấu :, hoa-thường đều được)</string>
+</resources>

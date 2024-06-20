@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_add"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="Show &amp; quét QR" />
+    <item
+        android:id="@+id/nav_devices"
+        android:icon="@drawable/ic_my_list_icon"
+        android:title="Danh sách thiết bị" />
+    <item
+        android:id="@+id/nav_sendqr"
+        android:icon="@drawable/ic_sending_arrow"
+        android:title="Đang gửi" />
+    <item
+        android:id="@+id/nav_lichsu"
+        android:icon="@drawable/ic_my_history_icon"
+        android:title="Lịch sử" />
+    <item
+        android:id="@+id/nav_openfolder"
+        android:icon="@drawable/ic_my_folder_open"
+        android:title="Thư mục" />
+
+</menu>

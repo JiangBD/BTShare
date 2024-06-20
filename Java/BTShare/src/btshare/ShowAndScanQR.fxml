@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<TabPane fx:id="qrTabPane" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="btshare.ShowAndScanQRController">
+  <tabs>
+    <Tab fx:id="myQRTab" onSelectionChanged="#handleTabChange" text="QR của tôi ">
+         <content>
+            <Pane fx:id="myQRPane" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0">
+               <children>
+                  <ImageView fx:id="QRImageView" fitHeight="202.0" fitWidth="200.0" layoutX="273.0" layoutY="104.0" pickOnBounds="true" preserveRatio="true" />
+                  <Label fx:id="dNameLabel" alignment="CENTER" layoutX="300.0" layoutY="306.0" text="address">
+                     <font>
+                        <Font size="21.0" />
+                     </font>
+                  </Label>
+               </children></Pane>
+         </content>
+    </Tab>
+    <Tab fx:id="scanQRTab" onSelectionChanged="#handleTabChange" text="Quét QR">
+         <content>
+            <Pane prefHeight="256.0" prefWidth="600.0" />
+         </content>
+    </Tab>
+  </tabs>
+</TabPane>

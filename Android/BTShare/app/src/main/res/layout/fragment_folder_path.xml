@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/folderPathTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Các tập tin đã nhận được lưu tại:\n Bộ nhớ trong -> BTShare"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:paddingTop = "60dp"
+        android:paddingBottom = "60dp"/>
+
+</RelativeLayout>
